@@ -1,10 +1,80 @@
-h1{
-  color: red;
+header {
+  background: #ffffff;
+  color: #cccccc;
+  border-color: #cccccc;
 }
 
-.navLink {
-  float:right;
+header h1 {
+  margin: ;
+  display: inline;
+  color: purple;
+  border-color: #cccccc;
+  padding: 50px 20px 50px 20px;
+}
 
-.footer {
-  background-color: #666666;
+img {
+  display: block;
+}
+
+.article {
+  width: 300px;
+  background-color: green;
+  border: 25px solid green;
+  padding: 25px;
+  margin: 25px;
+  position: absolute;
+  display: block;
+  text-align: center;
+}
+
+.aside {
+  background-color: purple;
+  border: 3px solid #73AD21;
+  float: right;
+  height: 300px;
+  width: 300px;
+  display: inline;
+  padding: 25px;
+  margin: 25px;
+}
+
+
+nav ul li {
+  margin: 0;
+  display: inline;
+  text-align: right;
+  padding: 0 0 0 15px;
+  float:right;
+  background-color: black;
+  width: 75px;
+  height: 75px;
+}
+
+
+nav ul li a {
+  color: #777777;
+}
+
+
+.about{
+  text-align: left;
+}
+
+.name{
+  background-color: #4aaaa5;
+  max-width: 300px;
+  height: 125px;
+}
+
+
+footer {
+  background: #666666;
+  clear:both;
+  text-align: center;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+
 }
